@@ -48,78 +48,61 @@ table {
 }
 
 body {
-	font-family: Helvetica, sans-serif;
+	font-family: sans-serif;
 }
 
-.container {
-	margin: 20px 0;
-}
-
-.container-content {
-	margin: 0 auto;
-	max-width: 500px;
-	padding: 50px;
-	text-align: center;
+header {
+	background-color: #8B4777;
+	color: #C8D3D9;
+	padding: 20px 0 20px 0;
 }
 
 h1 {
 	font-size: 5em;
-	margin: 20px 0;
 }
 
 h2 {
 	font-size: 3em;
-	margin: 20px 0;
 }
 
 p {
-	font-size: 1.2em;
+	font-size: 1.3em;
 	line-height: 2em;
-	margin: 60px 0;
+	margin: 30px 0 30px 0;
+}
+
+li {
+	background-color: #8B4777;
+	border-radius: 10px;
+	color: #C8D3D9;
+	display: inline-block;
+	font-size: 1.3em;
+	margin: 10px;
+	padding: 10px 15px 10px 15px;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	text-align: center;
+	width: 700px;
 }
 
 .headshot {
-	border: solid 10px #F0F3F1;
+	border: solid 10px #C8D3D9;
 	border-radius: 100%;
 }
 
-header {
-	background-color: #4D777E;
-	color: #F0F3F1;
-}
-
-.social-media {
-	margin-top: 20px;
-}
-
-.social-media img {
-	margin: 10px 30px;
-	width: 30px;
-}
 
 .skills {
-	background-color: #77BDB2;
-	color: #4D777E;
+	background-color: #C8D3D9;
 }
 
-.skills ul {
-	overflow: auto;
+.jobs {
+	background-color: #6F8A57;
 }
 
-.skills li {
-	background-color: #4D777E;
-	border-radius: 10px;
-	color: #F0F3F1;
-	float: left;
-	margin: 10px;
-	padding: 10px 15px;
-}
-
-.work-list {
-	background-color: #F0F3F1;
-	color: #4D777E;
-}
-
-.work-list img {
-	max-width: 200px;
+.jobs img {
+	width: 200px;
 }
